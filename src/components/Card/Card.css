@@ -1,0 +1,77 @@
+.card-container {
+  box-shadow: 0px 3px 3px -1px rgb(10 22 70 / 10%), 0px 0px 1px 0px rgb(10 22 70 / 6%) !important;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #eceef3;
+  border-radius: 0.75rem;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 0 1.5rem;
+  color: #525f7f;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.divider {
+  flex-shrink: 0;
+  border-width: 0px 0px medium;
+  border-style: solid solid none;
+  border-color: rgba(0, 0, 0, 0.12) rgba(0, 0, 0, 0.12) currentcolor;
+  background-color: transparent;
+  background-image: linear-gradient(to right, rgba(52, 71, 103, 0), rgba(52, 71, 103, 0.4), rgba(52, 71, 103, 0)) !important;
+  height: 0.0625rem;
+  margin: 1rem 0px;
+  opacity: 0.25;
+}
+
+.quantity {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.icon {
+  display: flex;
+  margin: 1rem 0 1rem 0;
+  width: 100%;
+  font-size:  1.3rem;
+  justify-content: center;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-top: -24px;
+  opacity: 1;
+  color: rgb(255, 255, 255);
+  border-radius: 0.75rem;
+  box-shadow: rgba(0, 0, 0, 0.14) 0rem 0.25rem 1.25rem 0rem, rgba(64, 64, 64, 0.4) 0rem 0.4375rem 0.625rem -0.3125rem;
+}
+
+.icon-gray {
+  background: rgba(0, 0, 0, 0) linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25)) repeat scroll 0% 0%;
+}
+
+.icon-green {
+  background: rgba(0, 0, 0, 0) linear-gradient(195deg, rgb(102, 187, 106), rgb(67, 160, 71)) repeat scroll 0% 0%;
+}
+
+.icon-blue {
+  background: rgba(0, 0, 0, 0) linear-gradient(195deg, rgb(73, 163, 241), rgb(26, 115, 232)) repeat scroll 0% 0%;
+}

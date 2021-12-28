@@ -1,0 +1,19 @@
+.modal-content {
+  margin: 0 auto;
+  max-width: 35rem;
+  min-height: 15rem;
+}
+
+.modal-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-text {
+  white-space: pre-line;
+}
+
+.modal-footer {
+  justify-content: center;
+}

@@ -1,0 +1,26 @@
+.button-register {
+  min-width: 10rem;
+  min-height: 3rem;
+  justify-content: center;
+}
+
+.button-login {
+  display: flex; 
+  align-items: center;
+}
+
+.button-login button {
+  max-width: 50%;
+  padding: 0.2rem;
+}
+
+.form {
+  min-height: 100vh;
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+}
+
+.register-form {
+  justify-content: center;
+}
